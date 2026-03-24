@@ -3,6 +3,7 @@
 ## Run locally (Docker)
 
 docker build -t github-gists-api .
+
 docker run -p 8080:8080 github-gists-api
 
 ## API Endpoint
